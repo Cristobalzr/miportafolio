@@ -1,8 +1,25 @@
-.navbar {
-  background: #660066;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.p  {
+.merry {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar {
+  background: ;
+}
+
+header {
+  background-image: url('../img/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: ;
+  width: 100%;
+  padding-top: 29em;
+}
+
+.p {
   line-height:
 }
 
@@ -12,4 +29,13 @@
 
 footer {
 font-size: 3em;
+
+}
+
+.carousel i {
+  font-size: 5em;
+}
+
+.trabajos {
+
 }

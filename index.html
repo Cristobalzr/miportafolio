@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
 
-    <title>Magdalena</title>
+    <title>Cristóbal Zagal</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!--Google Fonts-->
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -23,9 +23,9 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top ">
       <div class="container">
-        <a class="navbar-brand lobster font-weight-normal display-4" href="#" class=>M</a>
+        <a class="navbar-brand lobster font-weight-normal display-4 merry" href="#">Cristóbal Zagal</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,19 +34,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#">Sobre mi<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-light" href="#sobremi">Sobre mi<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Experiencia</a>
+              <a class="nav-link text-light" href="#experiencias">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Trabajos</a>
+              <a class="nav-link text-light" href="#trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contacto</a>
+              <a class="nav-link text-light" href="#contacto">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true"></a>
             </li>
           </ul>
         </div>
@@ -54,22 +54,35 @@
     </nav>
 
 
-  <header class="container-fluid text-center">
+  <header class="container-fluid text-center  text-light">
 
-    <h1>YO SOY</h1>
-    <h2>MAGDALENA</h2>
-    <img class="img-responsive" src="assets/img/bg_hero.png" alt="bg-hero">
+    <div class="row">
+
+      <div class="col-12">
+
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-12">
+        <h1 class="diaplay-1 merry">YO SOY</h1>
+        <h2 class="display-2 merry">Cristóbal</h2>
+      </div>
+    </div>
+
+
+
 
   </header>
 
-  <section class="">
+  <section class="pt-5" id="sobremi">
     <div class="container">
       <h3 class="text-center center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
     </div>
 
   </section>
 
-  <section>
+  <section class="pt-5 mt-2">
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -82,58 +95,105 @@
     </div>
   </section>
 
-  <section class="trabajos">
-    <h2></h2>
-  </section>
 
-<section>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <img class="img-fluid" src="assets/img/cuppon.png" alt="">
+
+  <section class="experiencias text-center pt-5 mt-2 display-3" id="experiencias">
+    <h3 class="merry display-3">Mi experiencia</h3>
+
+    <div class="">
+      <div id="BCarousel" class="carousel slide"
+      data-ride=carousel>
+        <ol class="carousel-indicators">
+          <li data-target="#BCarousel"
+          data-slide-to="0" class="active bg-dark"></li>
+          <li data-target="#BCarousel"
+          data-slide-to="1" class="bg-dark"></li>
+        </ol>
+
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="row m-3">
+              <div class="col-6">
+                <i class="fab fa-css3-alt text-primary"></i>
+                <p>CSS</p>
+              </div>
+              <div class="col-6">
+                <i class="fab fa-html5 text-primary"></i>
+                <p>HTML5</p>
+              </div>
+
+
+            </div>
           </div>
-        <div class="col-4">
-          <img class="img-fluid" src="assets/img/iguana_page.png" alt="">
-        </div>
-        <div class="col-4">
-          <img class="img-fluid" src="assets/img/meet_coffee.png" alt="">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-4">
-          <img class="img-fluid" src="assets/img/suricata.png" alt="">
-        </div>
-        <div class="col-4">
-          <img class="img-fluid" src="assets/img/dmark.png" alt="">
-        </div>
-        <div class="col-4">
-          <img class="img-fluid" src="assets/img/ricomida.png" alt="">
+          <div class="carousel-item">
+            <div class="row m-3">
+              <div class="col-6">
+                <i class="fab fa-js-square text-primary"></i>
+                <p>JS</p>
+              </div>
+              <div class="col-6">
+                <i class="fab fa-git text-primary"></i>
+                <p>GIT</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+
+    <section class="trabajos bg-primary text-center pt-5 pb-5 mt-2" id="trabajos">
+      <h2 class="text-light merry display-3">Trabajos</h2>
+
+
+    <section class="pt-5 mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img class="img-fluid" src="assets/img/cuppon.png" alt="">
+            </div>
+          <div class="col-4">
+            <img class="img-fluid" src="assets/img/iguana_page.png" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="assets/img/meet_coffee.png" alt="">
+          </div>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-4">
+            <img class="img-fluid" src="assets/img/suricata.png" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="assets/img/dmark.png" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="assets/img/ricomida.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+</section>
+
+
   </section>
 
-  <section class="experiencia">
-
-  </section>
-
-  <section class="contacto container">
+  <section class="contacto container mt-2" id="contacto">
     <div class="typeform-widget" data-url="https://cristbalzagal.typeform.com/to/cRdzLs" data-transparency="50" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=cRdzLs&utm_source=typeform.com-13652112-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
   </section>
 
 
-  <footer class="">
+  <footer class="pt-3 pb-3 bg-primary text-light">
     <div class="container">
       <div class="row">
         <div class="col-6 text-center">
-          <p>MAGDALENA</p>
+          <p class="merry">Cristóbal Zagal</p>
         </div>
         <div class="col-6 text-center">
           <div class="iconos">
             <i class="fab fa-instagram"></i>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github pl-5 pr-5"></i>
             <i class="fab fa-linkedin"></i>
           </div>
 
