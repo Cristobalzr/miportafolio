@@ -4,6 +4,7 @@ body {
 
 .merry {
   font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 
 .navbar {
@@ -15,13 +16,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: ;
-  width: 100%;
+  width: 100vw;
   padding-top: 29em;
 }
 
 .p {
-  line-height:
+  line-height:1.5em;
 }
 
 .iconos i {
