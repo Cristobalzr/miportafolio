@@ -10,10 +10,11 @@ body {
   background: ;
 }
 
-header {
+.header {
   background-image: url('../img/bg-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: ;
   width: 100%;
   padding-top: 29em;
@@ -28,7 +29,7 @@ header {
   color: #ffffff;
 }
 
-footer {
+.footer {
 font-size: 3em;
 
 }
@@ -36,4 +37,8 @@ font-size: 3em;
 .carousel i {
   font-size: 5em;
 
+}
+
+#sobremi {
+  padding-top: 1em;
 }
